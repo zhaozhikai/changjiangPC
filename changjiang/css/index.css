@@ -1,0 +1,340 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td { margin:0; padding:0; }
+body { overflow-x: hidden;font-size:14px; color:#333; font-family:Verdana, Microsoft YaHei, Simsun; }
+fieldset, img { border: none; }
+ol, ul { list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; font-weight: normal; }
+em { font-style:normal; }
+input, button, select, textarea { outline:none;  } 
+textarea { resize:none; }
+a { color:#333; text-decoration:none; display: inline-block; }
+img{display:block;}
+a:hover { text-decoration: none; }
+/*.hide { display:none!important;}*/
+/*头部开始*/
+.hide { display: none;}
+.navTop { width: 100%; height: 26px; line-height: 26px; background: url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/navline.png);}
+.navtIn { width: 1190px; margin: 0 auto; }
+.navtIn ul li { padding: 0 22px;  float: left; background: url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/navbor.png) no-repeat center right; font-size: 12px; color: #666;}
+.navtIn ul li a:hover { color: #0095D8;}
+.navhouse { background: url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/19.png) no-repeat 1px center; padding-left: 18px;   }
+.navcarr { background: url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/20.png) no-repeat 51px center; padding-right: 11px;}
+.navlang { background: url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/18.png) no-repeat 63px center; color: #0095D8; padding-right: 15px;}
+.navtin_ul { float: left;}
+.nav_search { float: right; position: relative;}
+.nav_seText { border: 1px solid #ccc; width: 174px; height: 9px; color: #A9A9A9; padding:  5px; font-size: 12px; margin-top: 2px; margin-right: 52px;}
+.nav_seIcon { background: #0095D8 url(../images/search.png) no-repeat center; position: absolute; right: 0; top: 2px; width: 52px; height: 21px; border: none;}
+.navimput { width: 100%; height: 90px;}
+.navimIn { width: 1190px; margin: 0 auto;}
+.logo { float: left; height: 44px; overflow: hidden; padding-top: 25px;}
+.nav_right { float: right; width: 1000px; }
+.nav_tel { float: right; height: 57px; line-height: 42px; vertical-align: middle;}
+.nav_tetit { color: #999;}
+.nav_tell { color: #0597D9; font-size: 20px; padding: 0 10px; vertical-align: middle;}
+.nav_tel_wx { vertical-align: middle;}
+.nav_right ul { float: right;}
+.nav_right ul li { float: left; padding: 0 21px;}
+.nav_right ul .navnone { padding-right: 0;}
+/*大导航*/
+.nav_big { width: 100%; height: 48px; background: #0c9ada; line-height: 43px; position: relative;}
+.nav_big_in { width: 1190px; margin: 0 auto; }
+.nav_big_in ul li { float: left; font-size: 16px;position: relative}
+.nav_big_in ul li .nav_rig_navleft { color: #fff; font-size: 24px; font-weight: 500; padding: 0 70px; background: #2dbcfd; line-height: 48px;}
+.nav_rig_navleimg { position: absolute; left: 90px; bottom: -6px;z-index: 1}
+.nav_big_in ul li .nav_rig_nav { color: #fff; padding: 0 25px; line-height: 48px; background: url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/22.png) no-repeat center right;}
+.nav_big_in ul li .nav_rig_nav:hover {  line-height: 48px; background: #068ecb; margin-left: -1px; padding-left: 26px;}
+/*banner开始*/
+.banner { width: 100%;}
+/*tab*/
+.little_nav { width: 100%; height:50px; background: #f6f6f6;}
+.little_navIn { width: 1190px; margin: 0 auto; padding-left: 200px;}
+.little_navIn ul li { font-size: 16px; width: 175px; text-align: center; line-height: 50px; float: left; }
+.little_navIn ul li a { color: #666; }
+.little_navIn ul .little_navIn_left { font-size: 17px; color: #333;}
+.little_navIn ul .little_navIn_left:hover { color: #0095D8; font-size: 17px;}
+.little_navIn ul li a:hover,.little_navIn ul li .selectt { color: #0095D8; font-size: 15px;}
+.linav_con { width: 100%; background: #333131; overflow:hidden; padding-bottom: 102px;}
+.linav_con_in { display:none;position: relative; width: 1190px; margin: 0 auto; }
+.linav_con_in ul li { width: 145px; height: 145px; text-align: center; float: left; color: #fff; padding-top: 30px;}
+.linav_con_in ul li img { margin: 0 auto;}
+.linav_con_in ul li.current { display:none;}
+.linav_con_in ul li span { display: block; padding-top: 8px; font-size: 16px;color: white}
+.linav_down_cr { position: relative; margin-left: -16px; left: 50%; bottom: -0px;  width: 32px; height: 14px;}
+.linav_down_cr img { padding-top: 50px;}
+.last_nav { width: 100%; overflow: hidden; position: relative; }
+.last_navIn { width: 1190px; margin: 0 auto; padding-top: 40px;}
+.last_navIn .last_navIn_ul { padding-bottom: 40px; height: 50px; margin-left: -20px;}
+.last_navIn .last_navIn_ul li a { outline: none; width: 165px; height: 50px; float: left; text-align: center; font-size: 16px; line-height: 42px;}
+.last_navIn .last_navIn_ul li a:hover { color: #fff; background: url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/12.png) no-repeat center;}
+.last_navIn .last_navIn_ul li .active { color: #fff; background: url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/12.png) no-repeat center;}
+.last_navadd { float: right; padding-top: 15px; cursor: pointer; }
+.con_left { width: 740px; float: left; font-size: 13px; padding-left: 30px;}
+.con_left_induc { margin-bottom: 20px; width: 780px; overflow: hidden;} 
+.con_left_peo { position: relative; float: left;  width: 339px; height: 238px; overflow: hidden;}
+.con_left_peo .imghb { display: block;}
+.con_left_peo a .imghb { transition: all 1s ease 0s;width: 100%}
+.con_left_peo a .imghb:hover { transform: scale(1.2);}
+.con_lein_tit { position: absolute; width: 329px; height: 41px; left: 0; bottom: 0; background: rgba(0,0,0,0.5); color: #fff; line-height: 41px; padding-left: 10px; }
+.con_riimg { margin-bottom: 30px;}
+.con_lein_tit span { font-size: 16px;}
+.con_lecont a { display: inline;}
+.con_lein_cin { float: right; width: 400px; line-height: 24px; border-bottom:  1px  dashed #ccc; padding-bottom: 12px; margin-bottom: 10px;}
+.con_lecont a { font-weight: 700; color: #333;}
+.con_lecont a:hover { color: #0095D8; }
+.con_le_time { float: right; color: #999; line-height: 24px; height: 24px; display: inline-block; background: url(../images/26.png) no-repeat 1px center; padding-left: 17px;}
+.con_lein_cin p { padding-top: 0px; color: #666; line-height: 26px}
+.con_right { float: right; width:  339px;}
+.river_lr_cotit { height: 30px; padding-top: 5px;}
+.river_left_inrig .river_lr_con { width: 390px;}
+
+
+/*长江公益*/
+.river_con_left { width: 680px; float: left;}
+.river_con_leftin { width: 640px;}
+.river_con_left .river_left_tit .river_letit_left { float: left;}
+.river_left_tit { height: 30px;}
+.river_letit_left a { font-size: 16px; margin: 0 5px; padding-bottom: 2px;}
+.river_letit_left a:hover,.selected { color: #1D8DBF; border-bottom: 2px solid #1D8DBF;  }
+.river_left_add { float: right;}
+.river_left_indos { padding: 20px 0; border-bottom: 1px solid #eee; overflow: hidden;}
+.river_left_indos .river_left_inimg { display: inline-block; float: left; padding-right: 18px;}
+.river_left_inrig { float: left; width: 470px;}
+.river_left_inrig_left { float: left; color: #5E5E5E; font-weight: 700;}
+.river_left_inrig_left:hover { color: #1D8DBF;}
+.river_left_inrig_rl { float: right; display: inline-block;}
+.river_con_right { float: right; position: relative; }
+.river_con_rigimga { width: 460px; padding: 30px 25px; background: url(../images/30.jpg) no-repeat; height: 226px;}
+.river_con_rigimgb { width: 510px; background: url(../images/2.jpg) no-repeat; height: 118px;}
+.river_con_rigtop { padding-bottom: 40px; }
+.river_con_rigleft { float: left; font-size: 18px; border-bottom: 2px solid #fff; padding-bottom: 3px; color: #fff; }
+.river_con_rigright { float: right;}
+.river_con_rigimgc ul { width: 460px;}
+.river_con_rigimga ul li { width: 460px;  line-height: 38px;}
+.river_con_rigimga ul li,.river_con_leftimg ul li { height: 38px;color: #fff;}
+.river_con_rigimga ul li a,.river_con_leftimg ul li a {  width: 460px; color: #fff; text-align: left; display: inline;}
+.river_con_rigimga ul li a:hover,.river_con_leftimg ul li a:hover { background: none; border-bottom: 1px solid #fff;}
+.river_con_leftimg { width: 301px; height: 208px; padding: 15px 20px; margin-top: 22px; float: left;    background: -moz-linear-gradient(top, #D6700C 0%, #D6700C 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D6700C), color-stop(100%,#D6700C));background: -webkit-linear-gradient(top, #D6700C 0%,#D6700C 100%);background: -o-linear-gradient(top, #D6700C 0%,#D6700C 100%);background: -ms-linear-gradient(top, #D6700C 0%,#D6700C 100%);background: linear-gradient(to bottom, #D6700C 0%,#D6700C 100%);}
+.river_video { display: inline; padding-left: 10px;}
+.river_con_leftimg  ul { width: 297px; }
+.river_con_left .river_con_leftimg  ul li a {  width: 297px; line-height: 24px;}
+.river_conlt_img { float: right; margin-top: 22px; position: relative; width: 339px;}
+.river_con_rigimgc { width: 460px; padding: 30px 25px; height: 178px;  background: url(../images/3.jpg) no-repeat; margin-top: -1px;}
+.river_conlt_arrow { position: absolute; right: 0; top: 0;}
+.river_conlt_arrow a { padding: 0 0 0 2px;}
+.river_con_rigimgc ul li { color: #fff; line-height: 24px;}
+.river_con_rigimgc ul li  a { font-size: 14px; line-height: 24px; padding-bottom:8px; color: #fff;}
+.river_con_rigiletit { float: left;}
+.river_con_rigimhdns { width: 415px; float: left;}
+.river_conlt_img .biaoqianc {  position: absolute; left: 0; top: 0; background: url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/bqd.png) no-repeat; width: 105px; height: 57px; text-align: center; line-height: 50px; color: #fff; font-size: 18px;}
+.biaow { left:0;}
+
+/*返回顶部*/
+.put_top { width: 56px; height: 250px; position: absolute; right: 10px; bottom: 100px;}
+.put_top a { margin-bottom: 5px; width: 56px; height: 58px; display: inline-block;  background: #c7def0; opacity: 0.8; }
+.put_top .sport_top:hover { background: #5085ca;}
+.river_top:hover { background: #0095d8;}
+/*运动风尚样式*/
+.sport_top{ width: 1161px; overflow: hidden; margin: 0 auto 30px;}
+.sport_top_left { width: 340px; height: 240px; float: left; position: relative;}
+.sport_lein_tit { left: 0px; bottom: 0; width: 340px; }
+.sport_top_right { float: right; padding-right: 20px;}
+.sport_top_right .river_letit_left { float: left;}
+.sport_bottom {width: 1160px; margin: 0 auto;overflow: hidden;}
+.sport_ba { width: 340px; height: 240px; float: left; position: relative;}
+.sport_ba2{ width: 390px; margin: 0 45px 0 45px; }
+.biaoqian { position: absolute; right: 0; top: 0; background: url(../img/bq.png) no-repeat; width: 88px; height: 48px; text-align: center; line-height: 40px; color: #fff; font-size: 18px;}
+.biaoqiand { position: absolute; right: 0; top: 0; background: url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/bqd.png) no-repeat; width: 105px; height: 57px; text-align: center; line-height: 50px; color: #fff; font-size: 18px; }
+.sport_ba_tit { width: 390px; }
+.sport_conlt_arrow { top: 214px; right: 0;}
+.sport_contop_arrow { top: 245px; right: 1px;}
+/*人文艺术*/
+.art_con_left { width: 620px; padding-left: 30px;}
+.art_con_right {  float: right; width: 485px;}
+.art_con_right .art_conr_li { padding-top: 20px; padding-bottom: 0; width: 485px; height: 328px; overflow: hidden;}
+.art_con_right .art_conr_li li {  width: 485px; height: 328px;}
+.art_con_right .art_conr_ol {  width: 50px; margin: 10px auto;}
+.art_con_right .art_conr_ol li  { width: 10px; height: 10px; border-radius: 50px; float: left; margin: 0 3px; background: #bbb; cursor: pointer; }
+.art_con_right .art_conr_ol .currentc { background: #0095D8;}
+.art_con_right .river_letit_left { float: left;}
+
+
+/*bottom*/
+.bottom { width: 100%; background: url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/19.jpg) no-repeat center; overflow: hidden; padding: 0 0 30px 0; margin-top: 30px;}
+.bottomIn { width: 1190px; margin: 0 auto;}
+.bottom_left { width: 383px; height: 495px; float: left; padding-right: 120px;}
+.bottom_right { float: left; width: 355px; margin-left: 78px;}
+.bottom_rightwei { float: left; padding-top: 35px;}
+.bott_img { padding-right: 10px;}
+.bottomIn h3 { padding: 40px 0 20px 0; font-size: 18px;}
+.bottom_right p { padding:  10px 0;}
+.bottom_right p img { display: inline-block; vertical-align: middle;}
+.bottom_rightwei img { display: inline-block; vertical-align: top;}
+.bottom_rightwei p { text-align: right; padding-top: 8px; padding-right: 9px;}
+.bottbz { width: 100%;}
+.bottbzIn { width: 1190px; margin: 0 auto; text-align: center; padding-top: 80px; padding-bottom: 27px; font-size: 12px;color: #999; line-height: 20px; }
+.bottbzIn a {color: #999; }
+.bottbzIn a:hover {color: #0B9ADA; }
+.bottom_down { width: 100%; background: url(../images/but_line.png) repeat-x; height: 33px; line-height: 33px;}
+.bottom_downin { width: 1215px; margin: 0 auto;}
+.bottom_downins { width: 1150px; margin: 0 auto;}
+.bottom_downin ul li { padding: 0 20px; float: left; color: #666; font-size: 12px;}
+.bottom_downin ul .bottom_downfrist { background: url(../images/27.png) no-repeat 10px 1px; width: 66px;}
+.bottom_downin ul .bottom_downfrist a { color: #fff; background: url( ../images/28.png) no-repeat 1px center; padding-left:16px;}
+.bottom_downin ul li .botthover:hover  { color: #1295D8; }
+
+.little_navIn ul li.active a {color: #0095D8; }
+
+
+/*运动风尚7个小版块*/
+.news_banner{width: 340px;height: 240px;overflow:hidden;position: relative;}
+.news_banner ul{overflow: hidden;width: 1000%;position: absolute;left: 0;top: 0;height: 240px;}
+.news_banner ul li{overflow: hidden;float: left;width: 340px;height: 240px;position: relative;}
+.news_banner ul li span{display: block;background: url(../images/banner_new_bg.png) repeat left top;padding-left: 15px;height: 40px;color: #fff;font-size: 16px;line-height: 40px;position: absolute;left: 0;bottom: 0;width: 500px;z-index: 1; box-sizing:border-box;}
+.recommend_box{right: -380px;position: absolute;bottom: -9px;/* margin-bottom: -152px; */height: 40px;width: 476px;z-index: 1000;}
+.recommend_book_banner_S-right{position: absolute;left: 66px;position: absolute;cursor: pointer;}
+.recommend_book_banner_S-right:hover { background:url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/btn_l_hover.jpg) no-repeat;}
+.recommend_book_banner_S-left{position: absolute;left: 30px;position: absolute;cursor: pointer;}
+.tit-change a{background: none;color: #de4b39;font-size: 14px;line-height: }
+.news_r{width: 594px;}
+
+.dingwei { width:100%; height:40px; line-height:40px; position:absolute; left:0; bottom:0;background: rgba(0,0,0,0.5);} 
+.dingwei p { color:#fff; font-size:14px; padding:0 10px; box-sizing:border-box;}
+
+.news_banner1{width: 340px;height: 240px;overflow:hidden;position: relative;}
+.news_banner1 ul{overflow: hidden;width: 1000%;position: absolute;left: 0;top: 0;height: 240px;}
+.news_banner1 ul li{overflow: hidden;float: left;width: 340px;height: 240px;position: relative;}
+.news_banner1 ul li span{display: block;background: url(../images/banner_new_bg.png) repeat left top;padding-left: 15px;height: 40px;color: #fff;font-size: 16px;line-height: 40px;position: absolute;left: 0;bottom: 0;width: 500px;z-index: 1; box-sizing:border-box;}
+.recommend_box1{right: -11px;position: absolute;bottom: -13px;/* margin-bottom: -152px; */height: 40px;width: 100px;z-index: 1000;}
+.recommend_book_banner_S-right1{position: absolute;left: 66px;position: absolute;cursor: pointer;}
+.recommend_book_banner_S-right1:hover { background:url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/btn_l_hover.jpg) no-repeat;}
+.recommend_book_banner_S-left1{position: absolute;left: 37px;position: absolute;cursor: pointer;}
+.tit-change1 a{background: none;color: #de4b39;font-size: 14px;line-height: }
+.news_r1{width: 294px;}
+
+.dingwei1 { width:100%; height:40px; line-height:40px; position:absolute; left:0; bottom:0;background: rgba(0,0,0,0.5);} 
+.dingwei1 p { color:#fff; font-size:14px; padding:0 10px; box-sizing:border-box;}
+
+.news_banner2{width: 340px;height: 240px;overflow:hidden;position: relative;}
+.news_banner2 ul{overflow: hidden;width: 1000%;position: absolute;left: 0;top: 0;height: 240px;}
+.news_banner2 ul li{overflow: hidden;float: left;width: 340px;height: 240px;position: relative;}
+.news_banner2 ul li span{display: block;background: url(../images/banner_new_bg.png) repeat left top;padding-left: 15px;height: 40px;color: #fff;font-size: 16px;line-height: 40px;position: absolute;left: 0;bottom: 0;width: 500px;z-index: 1; box-sizing:border-box;}
+.recommend_box2{right: -11px;position: absolute;bottom: -13px;/* margin-bottom: -152px; */height: 40px;width: 100px;z-index: 1000;}
+.recommend_book_banner_S-right2{position: absolute;left: 66px;position: absolute;cursor: pointer;}
+.recommend_book_banner_S-right2:hover { background:url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/btn_l_hover.jpg) no-repeat;}
+.recommend_book_banner_S-left2{position: absolute;left: 37px;position: absolute;cursor: pointer;}
+.tit-change2 a{background: none;color: #de4b39;font-size: 14px;line-height: }
+.news_r2{width: 294px;}
+
+.dingwei2 { width:100%; height:40px; line-height:40px; position:absolute; left:0; bottom:0;background: rgba(0,0,0,0.5);} 
+.dingwei2 p { color:#fff; font-size:14px; padding:0 10px; box-sizing:border-box;}
+
+.news_banner3{width: 340px;height: 240px;overflow:hidden;position: relative;}
+.news_banner3 ul{overflow: hidden;width: 1000%;position: absolute;left: 0;top: 0;height: 240px;}
+.news_banner3 ul li{overflow: hidden;float: left;width: 340px;height: 240px;position: relative;}
+.news_banner3 ul li span{display: block;background: url(../images/banner_new_bg.png) repeat left top;padding-left: 15px;height: 40px;color: #fff;font-size: 16px;line-height: 40px;position: absolute;left: 0;bottom: 0;width: 500px;z-index: 1; box-sizing:border-box;}
+.recommend_box3{right: -11px;position: absolute;bottom: -13px;/* margin-bottom: -152px; */height: 40px;width: 100px;z-index: 1000;}
+.recommend_book_banner_S-right3{position: absolute;left: 66px;position: absolute;cursor: pointer;}
+.recommend_book_banner_S-right3:hover { background:url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/btn_l_hover.jpg) no-repeat;}
+.recommend_book_banner_S-left3{position: absolute;left: 37px;position: absolute;cursor: pointer;}
+.tit-change3 a{background: none;color: #de4b39;font-size: 14px;line-height: }
+.news_r3{width: 294px;}
+
+.dingwei3 { width:100%; height:40px; line-height:40px; position:absolute; left:0; bottom:0;background: rgba(0,0,0,0.5);} 
+.dingwei3 p { color:#fff; font-size:14px; padding:0 10px; box-sizing:border-box;}
+
+.news_banner4{width: 340px;height: 240px;overflow:hidden;position: relative;}
+.news_banner4 ul{overflow: hidden;width: 1000%;position: absolute;left: 0;top: 0;height: 240px;}
+.news_banner4 ul li{overflow: hidden;float: left;width: 340px;height: 240px;position: relative;}
+.news_banner4 ul li span{display: block;background: url(../images/banner_new_bg.png) repeat left top;padding-left: 15px;height: 40px;color: #fff;font-size: 16px;line-height: 40px;position: absolute;left: 0;bottom: 0;width: 500px;z-index: 1; box-sizing:border-box;}
+.recommend_box4{right: -11px;position: absolute;bottom: -13px;/* margin-bottom: -152px; */height: 40px;width: 100px;z-index: 1000;}
+.recommend_book_banner_S-right4{position: absolute;left: 66px;position: absolute;cursor: pointer;}
+.recommend_book_banner_S-right4:hover { background:url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/btn_l_hover.jpg) no-repeat;}
+.recommend_book_banner_S-left4{position: absolute;left: 37px;position: absolute;cursor: pointer;}
+.tit-change4 a{background: none;color: #de4b39;font-size: 14px;line-height: }
+.news_r4{width: 294px;}
+
+.dingwei4 { width:100%; height:40px; line-height:40px; position:absolute; left:0; bottom:0;background: rgba(0,0,0,0.5);} 
+.dingwei4 p { color:#fff; font-size:14px; padding:0 10px; box-sizing:border-box;}
+
+
+.news_banner5{width: 390px;height: 240px;overflow:hidden;position: relative;}
+.news_banner5 ul{overflow: hidden;width: 1000%;position: absolute;left: 0;top: 0;height: 240px;}
+.news_banner5 ul li{overflow: hidden;float: left;width: 390px;height: 240px;position: relative;}
+.news_banner5 ul li span{display: block;background: url(../images/banner_new_bg.png) repeat left top;padding-left: 15px;height: 40px;color: #fff;font-size: 16px;line-height: 40px;position: absolute;left: 0;bottom: 0;width: 500px;z-index: 1; box-sizing:border-box;}
+.recommend_box5{right: -11px;position: absolute;bottom: -13px;/* margin-bottom: -152px; */height: 40px;width: 100px;z-index: 1000;}
+.recommend_book_banner_S-right5{position: absolute;left: 66px;position: absolute;cursor: pointer;}
+.recommend_book_banner_S-right5:hover { background:url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/btn_l_hover.jpg) no-repeat;}
+.recommend_book_banner_S-left5{position: absolute;left: 37px;position: absolute;cursor: pointer;}
+.tit-change5 a{background: none;color: #de4b39;font-size: 14px;line-height: }
+.news_r5{width: 294px;}
+
+.dingwei5 { width:100%; height:40px; line-height:40px; position:absolute; left:0; bottom:0;background: rgba(0,0,0,0.5);} 
+.dingwei5 p { color:#fff; font-size:14px; padding:0 10px; box-sizing:border-box;}
+
+.news_banner6{width: 340px;height: 240px;overflow:hidden;position: relative;}
+.news_banner6 ul{overflow: hidden;width: 1000%;position: absolute;left: 0;top: 0;height: 240px;}
+.news_banner6 ul li{overflow: hidden;float: left;width: 340px;height: 240px;position: relative;}
+.news_banner6 ul li span{display: block;background: url(../images/banner_new_bg.png) repeat left top;padding-left: 15px;height: 40px;color: #fff;font-size: 16px;line-height: 40px;position: absolute;left: 0;bottom: 0;width: 500px;z-index: 1; box-sizing:border-box;}
+.recommend_box6{right: -11px;position: absolute;bottom: -13px;/* margin-bottom: -152px; */height: 40px;width: 100px;z-index: 1000;}
+.recommend_book_banner_S-right6{position: absolute;left: 66px;position: absolute;cursor: pointer;}
+.recommend_book_banner_S-right6:hover { background:url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/btn_l_hover.jpg) no-repeat;}
+.recommend_book_banner_S-left6{position: absolute;left: 37px;position: absolute;cursor: pointer;}
+.tit-change6 a{background: none;color: #de4b39;font-size: 14px;line-height: }
+.news_r6{width: 294px;}
+
+.dingwei6 { width:100%; height:40px; line-height:40px; position:absolute; left:0; bottom:0;background: rgba(0,0,0,0.5);} 
+.dingwei6 p { color:#fff; font-size:14px; padding:0 10px; box-sizing:border-box;}
+
+.news_banner7{width: 340px;height: 240px;overflow:hidden;position: relative;}
+.news_banner7 ul{overflow: hidden;width: 1000%;position: absolute;left: 0;top: 0;height: 240px;}
+.news_banner7 ul li{overflow: hidden;float: left;width: 340px;height: 240px;position: relative;}
+.news_banner7 ul li span{display: block;background: url(../images/banner_new_bg.png) repeat left top;padding-left: 15px;height: 40px;color: #fff;font-size: 16px;line-height: 40px;position: absolute;left: 0;bottom: 0;width: 500px;z-index: 1; box-sizing:border-box;}
+.recommend_box7{right: -11px;position: absolute;bottom: -13px;/* margin-bottom: -152px; */height: 40px;width: 100px;z-index: 1000;}
+.recommend_book_banner_S-right7{position: absolute;left: 66px;position: absolute;cursor: pointer;}
+.recommend_book_banner_S-right7:hover { background:url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/btn_l_hover.jpg) no-repeat;}
+.recommend_book_banner_S-left7{position: absolute;left: 37px;position: absolute;cursor: pointer;}
+.tit-change7 a{background: none;color: #de4b39;font-size: 14px;line-height: }
+.news_r7{width: 294px;}
+
+.dingwei7 { width:100%; height:40px; line-height:40px; position:absolute; left:0; bottom:0;background: rgba(0,0,0,0.5);} 
+.dingwei7 p { color:#fff; font-size:14px; padding:0 10px; box-sizing:border-box;}
+
+
+
+
+.news_bannerq{width: 339px;height: 238px;overflow:hidden;position: relative;}
+.news_bannerq ul{overflow: hidden;width: 1000%;position: absolute;left: 0;top: 0;height: 238px;}
+.news_bannerq ul li{overflow: hidden;float: left;width: 339px;height: 238px;position: relative;}
+.news_bannerq ul li span{display: block;background: url(../images/banner_new_bg.png) repeat left top;padding-left: 15px;height: 40px;color: #fff;font-size: 16px;line-height: 40px;position: absolute;left: 0;bottom: 0;width: 500px;z-index: 1; box-sizing:border-box;}
+.recommend_boxq{right: -11px;position: absolute;top: 0;/* margin-bottom: -152px; */height: 40px;width: 100px;z-index: 1000;}
+.recommend_book_banner_S-rightq{position: absolute;left: 66px;position: absolute;cursor: pointer;}
+.recommend_book_banner_S-rightq:hover { background:url(http://ckgsb.mbachina.net.cn/public/ckgsb/alumni/images/btn_l_hover.jpg) no-repeat;}
+.recommend_book_banner_S-leftq{position: absolute;left: 37px;position: absolute;cursor: pointer;}
+.tit-change2 a{background: none;color: #de4b39;font-size: 14px;line-height: }
+.news_rq{width: 339px;}
+
+.dingweiq { width:100%; height:40px; line-height:40px; position:absolute; left:0; bottom:0;background: rgba(0,0,0,0.5);} 
+.dingweiq p { color:#fff; font-size:14px; padding:0 10px; box-sizing:border-box;}
+
+
+.banner{position: relative;width: 100%;}
+.banner .img_list {overflow: hidden; position: relative; width: 100%;height: 364.872px;}
+/* 根据图片的张数来设定ul的宽度 */
+.img_list ul{ width: 6400px; position: absolute; left: 0px;}
+.img_list li { float: left;}
+
+/* 图片对应的按钮样式 */
+.btn_list ul { position: absolute; right: 50%; bottom: 35px; }
+.btn_list li{ float: left; margin-right: 10px; background: #bbb; width: 10px; height: 10px; border-radius: 50px;  }
+.btn_list li:hover,.btn_list li.on { cursor: pointer;  background: #0095D8;}
+.ws{float: right}
+
+
+
+/*添加*/
+.sport_top_mid{width: 400px;height: 240px;float: left;margin: 0 36px 0 45px;}
+.sport_top_mid_a{width: 400px;height: 108px;border-bottom: dashed 1px #cccccc;margin-bottom: 16px;}
+.sport_top_tit{height: 24px;}
+.sport_top_tit_a{float: left;color: #333333;font-weight: 700;font-size: 14px;}
+.sport_top_tit_sp{float: right;display: inline-block;color: #9999b2;}
+.sport_top_tit_sp img{display: inline;}
+.sport_top_art{clear: both; color: #666666;font-size: 14px;line-height: 26px;}
